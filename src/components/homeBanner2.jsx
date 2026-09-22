@@ -23,7 +23,7 @@ export default function Section5() {
               href="https://www.opentable.com/r/esencia-san-antonio"
               target="_blank"
             >
-              Make A Reservastion
+              Make A Reservation
             </a>
           </div>
           <hr className=" w-[60px] border-t-2 border-solid border-[#211A15]" />

@@ -21,7 +21,7 @@ export default function Navbar() {
 
       <ul className="text-white flex flex-row gap-12 pl-30 pr-20 mt-3">
         <li>
-          <a>Private Dinning</a>
+          <a>Private Dining</a>
         </li>
         <li>
           <a>Gallery</a>
@@ -35,7 +35,7 @@ export default function Navbar() {
         href="https://www.opentable.com/r/esencia-san-antonio"
         target="_blank"
       >
-        Reservastions
+        Reservations
       </a>
     </nav>
   );

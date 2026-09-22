@@ -43,7 +43,7 @@ export default function Home() {
                     href="https://www.opentable.com/r/esencia-san-antonio"
                     target="_blank"
                   >
-                    Make A Reservastion
+                    Make A Reservation
                   </a>
                 </div>
               </div>
