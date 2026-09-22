@@ -1,0 +1,1 @@
+import Plate from "../assets/section1.png"

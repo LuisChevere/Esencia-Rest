@@ -1,1 +1,6 @@
+/* 1. External fonts must go first */
+@import url('https://googleapis.com');
+
+/* 2. Tailwind compilation goes second */
 @import "tailwindcss";
+
