@@ -21,7 +21,7 @@ export default function Navbar() {
                 
                 
             </ul>
-            <a className=" text-white bg-black border inline-flex items-center px-6  mb-3 uppercase text-[10px]" href="https://www.opentable.com/r/esencia-san-antonio" target="_blank">
+            <a className=" text-white bg-black border inline-flex items-center px-6  mb-3 uppercase text-[10px] hover:bg-transparent" href="https://www.opentable.com/r/esencia-san-antonio" target="_blank">
              Reservastions
             </a>
            
