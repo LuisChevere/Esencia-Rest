@@ -2,6 +2,7 @@ import BackgroundVideo from "../components/BackgroundVideo";
 import Navbar from "../components/Navbar";
 import SectionA from "../components/homeSec2"
 import SectionB from "../components/homeBanner"
+import Feaured from "../components/homeFeatured"
 
 export default function Home() {
   return ( <>
@@ -53,6 +54,7 @@ export default function Home() {
    
     <SectionA />
     <SectionB />
+    <Feaured />
     </>
     
   );
