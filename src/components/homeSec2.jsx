@@ -29,7 +29,7 @@ export default function Section2() {
 
         <div className="absolute bottom-12 left-10 right-10 z-10 px-6">
           
-          <h2 className="mb-7 text-5xl font-thin uppercase leading-[0.9] lg:text-6xl uppercase">
+          <h2 className="mb-7 text-5xl font-thin uppercase leading-[0.9] lg:text-6xl">
             More
             <br />
             Than A Meal
@@ -44,7 +44,7 @@ export default function Section2() {
                 brings unexpected flavors into harmony.
             </span>
 
-          <span className=" pb-2 font-manrope text-[14px] font-semibold uppercase tracking-[0.2em]">
+          <span className=" pb-2 text-[14px] font-semibold uppercase tracking-[0.2em]">
             Our Story →
           </span>
         </div>
