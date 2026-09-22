@@ -6,7 +6,7 @@ import Gallery from "../assets/thegallery.png"
 export default function Featured() {
     return (
         <section className="grid w-full grid-cols-1 md:grid-cols-4">
-             {/*HERO PANEL MENU */}
+      {/*MENU PANEL MENU */}
       <a
         className="group relative min-h-[600px] overflow-hidden"
       >
@@ -17,7 +17,7 @@ export default function Featured() {
         />
 
         {/* Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-[#14120F]/95 via-[#14120F]/45 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#000000]/95 via-[#14120F]/45 to-transparent" />
 
         {/* Content */}
         <div className="absolute bottom-10 left-7 right-7 z-10 md:bottom-12 md:left-10 md:right-10">
@@ -49,7 +49,7 @@ export default function Featured() {
         />
 
         {/* Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-[#14120F]/95 via-[#14120F]/45 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#000000]/95 via-[#14120F]/45 to-transparent" />
 
         {/* Content */}
         <div className="absolute bottom-10 left-7 right-7 z-10 md:bottom-12 md:left-10 md:right-10">
@@ -81,7 +81,7 @@ export default function Featured() {
         />
 
         {/* Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-[#14120F]/95 via-[#14120F]/45 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#000000]/95 via-[#14120F]/45 to-transparent" />
 
         {/* Content */}
         <div className="absolute bottom-10 left-7 right-7 z-10 md:bottom-12 md:left-10 md:right-10">
@@ -113,7 +113,7 @@ export default function Featured() {
         />
 
         {/* Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-[#14120F]/95 via-[#14120F]/45 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#000000]/95 via-[#14120F]/45 to-transparent" />
 
         {/* Content */}
         <div className="absolute bottom-10 left-7 right-7 z-10 md:bottom-12 md:left-10 md:right-10">

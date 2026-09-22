@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import SectionA from "../components/homeSec2"
 import SectionB from "../components/homeBanner"
 import Feaured from "../components/homeFeatured"
+import SectionC from "../components/homeBanner2"
 
 export default function Home() {
   return ( <>
@@ -55,6 +56,7 @@ export default function Home() {
     <SectionA />
     <SectionB />
     <Feaured />
+    <SectionC />
     </>
     
   );
