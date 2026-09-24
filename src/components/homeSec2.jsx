@@ -22,7 +22,7 @@ export default function Section2() {
           className="absolute inset-0 h-full w-full object-cover transition-transform duration-1000 group-hover:scale-105"
         />
 
-        <div className="absolute inset-0 bg-gradient-to-t from-esencia-black/95 via-esencia-black/40 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#000000]/85 via-[#14120F]/45 to-transparent" />
 
         <div className="absolute bottom-12 left-10 right-10 z-10 px-6">
           <span className="uppercase tracking-[4px] text-[#C3A15B]">
