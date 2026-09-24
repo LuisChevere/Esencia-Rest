@@ -66,7 +66,7 @@ export default function Section2() {
 
         <div className="absolute inset-0 bg-gradient-to-t from-esencia-black/95 via-esencia-black/40 to-transparent" />
 
-        <div className="absolute top-5 left-105 z-10">
+        <div className="absolute top-5 left-120 z-10">
           <span className="mb-5 block text-[13px] uppercase tracking-[0.28em] leading-8 uppercase">
             Tradition
             <br />
