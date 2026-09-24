@@ -1,5 +1,5 @@
 import Plate from "../assets/section1.png";
-import Background from "../assets/section2.png";
+import Chef from "../assets/Chefleo.JPG";
 import Drink from "../assets/section3.png";
 
 export default function Section2() {
@@ -17,7 +17,7 @@ export default function Section2() {
       {/* Center Hero */}
       <a className="group relative h-[60vh] min-h-[600px] overflow-hidden">
         <img
-          src={Background}
+          src={Chef}
           alt="About Us"
           className="absolute inset-0 h-full w-full object-cover transition-transform duration-1000 group-hover:scale-105"
         />
@@ -25,30 +25,33 @@ export default function Section2() {
         <div className="absolute inset-0 bg-gradient-to-t from-esencia-black/95 via-esencia-black/40 to-transparent" />
 
         <div className="absolute bottom-12 left-10 right-10 z-10 px-6">
-          <h2 className="mb-7 text-5xl font-thin uppercase leading-[0.9] lg:text-6xl">
-            More
+          <span className="uppercase tracking-[4px] text-[#C3A15B]">
+            About the chef
+          </span>
+          <h2 className="mb-7 text-5xl font-thin uppercase leading-16 lg:text-6xl">
+            Leo
             <br />
-            Than A Meal
+            Dávila
             <hr className=" w-[60px] border-t-1 border-solid border-gray-300 my-5" />
           </h2>
 
           <span
             id="meal"
-            className="mb-5 block text-[14px] tracking-[0.28em] leading-8 font-bondoni"
+            className="mb-5 block text-[12px] tracking-[0.28em] leading-6 font-bondoni"
           >
-            Esencia is a reflection of place, people,
+            Chef Leo Dávila brings together heritage,
             <br />
-            and posibility. Rooted in heritage,
+            curiousity, and the flavors of San Antonio
             <br />
-            shaped by travel, and inspired by the
+            to create a cuisine rooted in culture
             <br />
-            energy of San Antonio, our menu
-            <br />
-            brings unexpected flavors into harmony.
+            and shaped by possibility.
           </span>
 
-          <span className=" pb-2 text-[14px] font-semibold uppercase tracking-[0.2em]">
-            Our Story →
+          <span className=" pb-2 text-[14px] uppercase tracking-[0.2em]">
+            <a href="#" className="hover:text-[#C3A15B]">
+              Meet Chef Leo →
+            </a>
           </span>
         </div>
       </a>

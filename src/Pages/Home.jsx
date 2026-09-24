@@ -17,7 +17,7 @@ export default function Home() {
           <h1 className="text-6xl uppercase tracking-[3px]">
             Culture
             <br />
-            On a deeperS
+            On a deeper
             <br />
             plate
             <hr className=" w-[60px] border-t-1 border-solid border-gray-300 my-5" />
