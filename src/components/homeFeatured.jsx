@@ -11,7 +11,7 @@ export default function Featured() {
         <img
           src={Menu}
           alt="Menus"
-          className="border-1 border-[#E9E0D2]/20 absolute inset-0 h-full w-full object-cover transition-transform duration-1000 ease-out group-hover:scale-105"
+          className="absolute inset-0 h-full w-full object-cover transition-transform duration-1000 ease-out group-hover:scale-105"
         />
 
         {/* Overlay */}
@@ -40,7 +40,7 @@ export default function Featured() {
         <img
           src={Space}
           alt="The Space"
-          className=" border-1 border-[#E9E0D2]/20 absolute inset-0 h-full w-full object-cover transition-transform duration-1000 ease-out group-hover:scale-105"
+          className=" absolute inset-0 h-full w-full object-cover transition-transform duration-1000 ease-out group-hover:scale-105"
         />
 
         {/* Overlay */}
@@ -69,7 +69,7 @@ export default function Featured() {
         <img
           src={Private}
           alt="Private Dinning"
-          className="border-1 border-[#E9E0D2]/20 absolute inset-0 h-full w-full object-cover transition-transform duration-1000 ease-out group-hover:scale-105"
+          className="absolute inset-0 h-full w-full object-cover transition-transform duration-1000 ease-out group-hover:scale-105"
         />
 
         {/* Overlay */}
@@ -98,7 +98,7 @@ export default function Featured() {
         <img
           src={Gallery}
           alt="Gallery"
-          className="border-1 border-[#E9E0D2]/20 absolute inset-0 h-full w-full object-cover transition-transform duration-1000 ease-out group-hover:scale-105"
+          className="absolute inset-0 h-full w-full object-cover transition-transform duration-1000 ease-out group-hover:scale-105"
         />
 
         {/* Overlay */}
