@@ -9,26 +9,27 @@ export default function Section5() {
         <img
           src={Background}
           alt="Background"
-          className="w-full h-[40vh] object-cover"
+          className="banner-background w-full h-[40vh] object-cover"
         />
 
-        <div className="absolute bottom-0 left-10 right-10 z-10 pr-20 pb-10 flex flex-col items-center gap-10">
-          <img src={Icon} className="w-40" />
-          <h4 className=" text-[40px] text-[#211A15] font-thin uppercase item-center leading-0 tracking-[6px]">
+        <div className="second-banner absolute bottom-0 left-10 right-10 z-10 pr-20 pb-10 flex flex-col items-center gap-10">
+          <img src={Icon} className="banner-logo w-40" />
+          <h4 className="second-banner-h text-[40px] text-[#211A15] font-thin uppercase item-center leading-0 tracking-[6px]">
             Flavor has a place here
           </h4>
-          <div id="button" className="pt-">
+          <div>
             <a
-              className="hover:bg-black hover:text-[#e9e0d2] hover:border-[#e9e0d2] text-[#211A15] border inline-flex items-center px-10 py-3 mb-3 uppercase text-[18px] tracking-[2px]"
+              className="banner-button hover:bg-black hover:text-[#e9e0d2] hover:border-[#e9e0d2] text-[#211A15] border inline-flex items-center px-10 py-3 mb-3 uppercase text-[18px] tracking-[2px]"
               href="https://www.opentable.com/r/esencia-san-antonio"
               target="_blank"
             >
               Make A Reservation
             </a>
           </div>
-          <hr className=" w-[60px] border-t-2 border-solid border-[#211A15]" />
 
-          <span className="block w-full text-center text-[#211A15] text-[20px] uppercase tracking-[5px] font-normal">
+          <hr className="w-[60px] border-t-2 border-solid border-[#211A15]" />
+
+          <span className="hotel-location block w-full text-center text-[#211A15] text-[20px] uppercase tracking-[5px] font-normal">
             The St. Anthony
             <br />
             300 E. Travis St. San Antonio, TX

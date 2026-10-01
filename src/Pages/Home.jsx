@@ -13,8 +13,11 @@ export default function Home() {
         <Navbar />
 
         {/* HERO CONTENT */}
-        <div className="absolute inset-8 z-30 flex flex-col pt-40 pl-15">
-          <h1 className="text-6xl uppercase tracking-[3px]">
+        <div
+          className="hero absolute inset-8 z-30 flex flex-col pt-40 pl-15"
+          id="hero"
+        >
+          <h1 className="culture text-6xl uppercase tracking-[3px]">
             Culture
             <br />
             On a deeper
@@ -23,8 +26,8 @@ export default function Home() {
             <hr className=" w-[60px] border-t-1 border-solid border-gray-300 my-5" />
           </h1>
 
-          <div className="">
-            <p className="uppercase tracking-[5px] py-5">
+          <div>
+            <p className="soul uppercase tracking-[5px] py-5">
               The Soul of Modern San antonio
             </p>
 
@@ -37,9 +40,9 @@ export default function Home() {
                   traditions converge.
                   <br />
                 </p>
-                <div id="button" className="pt-10">
+                <div className="pt-10">
                   <a
-                    className="hover:bg-black text-white border inline-flex items-center px-10 py-3 mb-3 uppercase text-[12px] tracking-[2px] uppercase"
+                    className="hero-button text-white border inline-flex items-center px-10 py-3 mb-3 uppercase text-[12px] tracking-[2px] uppercase hover:text-[#C3A15B] hover:border-[#C3A15B]"
                     href="https://www.opentable.com/r/esencia-san-antonio"
                     target="_blank"
                   >
@@ -47,26 +50,26 @@ export default function Home() {
                   </a>
                 </div>
               </div>
-              <div
-                id="list"
-                className="uppercase tracking-[4px] text-[12px] leading-7 pl-5"
-              >
-                <p>
-                  Mexico
-                  <br />
-                  China
-                  <br />
-                  Spain
-                  <br />
-                  Asia
-                  <br />
-                  Texas
-                  <br />
-                  Together
-                  <br />
-                  Here
-                  <hr className=" w-[40px] border-t-1 border-solid border-gray-300 my-5" />
-                </p>
+              <div className="list uppercase tracking-[4px] text-[12px] leading-7 pl-5">
+                <div>
+                  <p>
+                    Mexico
+                    <br />
+                    China
+                    <br />
+                    Spain
+                    <br />
+                    Asia
+                    <br />
+                    Texas
+                    <br />
+                    Together
+                    <br />
+                    Here
+                  </p>
+
+                  <hr className="w-[40px] border-t-1 border-solid border-gray-300 my-5" />
+                </div>
               </div>
             </div>
           </div>

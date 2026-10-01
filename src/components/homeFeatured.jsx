@@ -5,9 +5,9 @@ import Gallery from "../assets/thegallery.png";
 
 export default function Featured() {
   return (
-    <section className="grid w-full grid-cols-1 md:grid-cols-4">
+    <section className="featured grid w-full grid-cols-1 md:grid-cols-4">
       {/*MENU PANEL MENU */}
-      <a className="group relative min-h-[600px] overflow-hidden">
+      <a href="/menus" className="group relative min-h-[600px] overflow-hidden">
         <img
           src={Menu}
           alt="Menus"
@@ -19,11 +19,11 @@ export default function Featured() {
 
         {/* Content */}
         <div className="absolute bottom-10 left-7 right-7 z-10 md:bottom-12 md:left-10 md:right-10">
-          <h2 className="mb-7 text-4xl font-normal uppercase leading-[0.92] tracking-wide ">
+          <h2 className="featured-h mb-7 text-4xl font-normal uppercase leading-[0.92] tracking-wide ">
             Menus
           </h2>
 
-          <span className="mb-5 block text-[14px] uppercase tracking-[0.28em]">
+          <span className="featured-span mb-5 block text-[14px] uppercase tracking-[0.28em]">
             Bold Flavors.
             <br />
             Deep Roots.
@@ -48,17 +48,17 @@ export default function Featured() {
 
         {/* Content */}
         <div className="absolute bottom-10 left-7 right-7 z-10 md:bottom-12 md:left-10 md:right-10">
-          <h2 className="mb-7 text-4xl font-normal uppercase leading-[0.92] tracking-wide ">
+          <h2 className="featured-h mb-7 text-4xl font-normal uppercase leading-[0.92] tracking-wide ">
             The Space
           </h2>
 
-          <span className="mb-5 block text-[14px] uppercase tracking-[0.28em]">
+          <span className="featured-span mb-5 block text-[14px] uppercase tracking-[0.28em]">
             History in
             <br />
             Every Detail.
           </span>
 
-          <span className="inline-block pb-2 text-[12px] uppercase tracking-[0.2em] transition-colors duration-300 group-hover:text-[#C3A15B]">
+          <span className="featured-button  inline-block pb-2 text-[12px] uppercase tracking-[0.2em] transition-colors duration-300 group-hover:text-[#C3A15B]">
             Explore →
           </span>
         </div>
@@ -77,17 +77,17 @@ export default function Featured() {
 
         {/* Content */}
         <div className="absolute bottom-10 left-7 right-7 z-10 md:bottom-12 md:left-10 md:right-10">
-          <h2 className="mb-7 text-4xl font-normal uppercase leading-[0.92] tracking-wide ">
+          <h2 className="featured-h mb-7 text-4xl font-normal uppercase leading-[0.92] tracking-wide ">
             Private Dining
           </h2>
 
-          <span className="mb-5 block text-[14px] uppercase tracking-[0.28em]">
+          <span className="featured-span mb-5 block text-[14px] uppercase tracking-[0.28em]">
             Intimate moments.
             <br />
             Extraordinary flavor.
           </span>
 
-          <span className="inline-block pb-2 text-[12px] uppercase tracking-[0.2em] transition-colors duration-300 group-hover:text-[#C3A15B]">
+          <span className="featured-button inline-block pb-2 text-[12px] uppercase tracking-[0.2em] transition-colors duration-300 group-hover:text-[#C3A15B]">
             Learn More →
           </span>
         </div>
@@ -106,17 +106,17 @@ export default function Featured() {
 
         {/* Content */}
         <div className="absolute bottom-10 left-7 right-7 z-10 md:bottom-12 md:left-10 md:right-10">
-          <h2 className="mb-7 text-4xl font-normal uppercase leading-[0.92] tracking-wide ">
+          <h2 className=" featured-h mb-7 text-4xl font-normal uppercase leading-[0.92] tracking-wide ">
             Gallery
           </h2>
 
-          <span className="mb-5 block text-[14px] uppercase tracking-[0.28em]">
+          <span className="featured-span mb-5 block text-[14px] uppercase tracking-[0.28em]">
             A look inside
             <br />
             Esencia.
           </span>
 
-          <span className="inline-block pb-2 text-[12px] uppercase tracking-[0.2em] transition-colors duration-300 group-hover:text-[#C3A15B]">
+          <span className="featured-button inline-block pb-2 text-[12px] uppercase tracking-[0.2em] transition-colors duration-300 group-hover:text-[#C3A15B]">
             View Gallery →
           </span>
         </div>

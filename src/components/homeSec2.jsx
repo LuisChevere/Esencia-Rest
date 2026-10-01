@@ -24,7 +24,7 @@ export default function Section2() {
 
         <div className="absolute inset-0 bg-gradient-to-t from-[#000000]/85 via-[#14120F]/45 to-transparent" />
 
-        <div className="absolute bottom-12 left-10 right-10 z-10 px-6">
+        <div className="chef absolute bottom-12 left-10 right-10 z-10 px-6">
           <span className="uppercase tracking-[4px] text-[#C3A15B]">
             About the chef
           </span>
@@ -35,10 +35,7 @@ export default function Section2() {
             <hr className=" w-[60px] border-t-1 border-solid border-gray-300 my-5" />
           </h2>
 
-          <span
-            id="meal"
-            className="mb-5 block text-[12px] tracking-[0.28em] leading-6 font-bondoni"
-          >
+          <span className="chef-info mb-5 block text-[12px] tracking-[0.28em] leading-6 font-bondoni">
             Chef Leo Dávila brings together heritage,
             <br />
             curiousity, and the flavors of San Antonio
@@ -48,7 +45,7 @@ export default function Section2() {
             and shaped by possibility.
           </span>
 
-          <span className=" pb-2 text-[14px] uppercase tracking-[0.2em]">
+          <span className="bio-link pb-2 text-[14px] uppercase tracking-[0.2em]">
             <a href="#" className="hover:text-[#C3A15B]">
               Meet Chef Leo →
             </a>
@@ -66,8 +63,8 @@ export default function Section2() {
 
         <div className="absolute inset-0 bg-gradient-to-t from-esencia-black/95 via-esencia-black/40 to-transparent" />
 
-        <div className="absolute top-5 left-120 z-10">
-          <span className="mb-5 block text-[13px] uppercase tracking-[0.28em] leading-8 uppercase">
+        <div className="absolute z-10">
+          <span className="drink-info mb-5 block pt-5 pl-125 text-[13px] uppercase tracking-[0.28em] leading-8 uppercase">
             Tradition
             <br />
             Meets

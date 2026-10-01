@@ -1,5 +1,5 @@
 /* 1. External fonts must go first */
-@import url('https://googleapis.com');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500&family=Manrope:wght@400;500;600;700&display=swap');
 
 /* 2. Tailwind compilation goes second */
 @import "tailwindcss";
@@ -24,6 +24,242 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Bodoni Moda', serif;
   font-optical-sizing: auto;
   font-weight: 400; /* Adjust weight as needed (400-900) */
+}
+
+
+/* Esencia navbar visibility */
+.esencia-navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 50;
+}
+
+.desktop-navbar {
+  display: none !important;
+}
+
+.mobile-navbar {
+  display: flex !important;
+}
+
+@media (min-width: 1200px) {
+  .desktop-navbar {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mobile-navbar,
+  .mobile-menu,
+  .mobile-backdrop {
+    display: none !important;
+  }
+
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 1199px) {
+   .footer {
+    padding-left: 0%;
+    gap: 0px;
+  }
+  .footer-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding-left: 0%;
+  }
+
+  .footer-links {
+    font-size: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem 2rem;
+    white-space: normal;
+  }
+
+  .footer-socials {
+    justify-content: center;
+  
+  }
+
+  .footer-h {
+    width: 92%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+  }
+
+  .footer-bottom {
+    flex-direction: row;
+    text-align: center;
+    font-size: 10px;
+    line-height: 1;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+  .hero {
+    padding-left: 0px;
+  }
+
+  .culture {
+    font-size: 45px;
+  }
+
+  .soul {
+    font-size: 16px;
+  }
+
+  .hero-button {
+    margin: 0%;
+    font-size: 12px;
+    padding: 10px 20px 10px 20px;
+  }
+
+  .list {
+    font-size: 10px;
+    line-height: 2;
+    padding-top: 50px;
+    padding-left: 40px;
+  }
+
+  .chef {
+    padding-left: 0px;
+    line-height: 0px;
+  }
+
+  .chef-info{
+    line-height: 1.5;
+    font-size: 11px;
+  }
+
+  .bio-link {
+    font-size: 12px;
+  }
+
+  .drink-info{ 
+    padding-left: 45%;
+    line-height: 1.5;
+    font-size: 12px;
+  }
+
+  .banner {
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 30px;
+  }
+  .banner-1 {
+    font-size: 20px;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .featured {
+    line-height: 1.5;
+  }
+  .featured-h {
+    font-size: 30px;
+    margin-bottom: 14px;
+  }
+
+  .featured-span {
+    font-size: 12px;
+    margin-bottom: 14px;
+
+  }
+
+  .second-banner {
+    justify-content: center;
+    padding-bottom: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 20px;
+  }
+
+  .banner-background {
+    height: 45vh;
+  }
+
+  .banner-logo{
+      width: 30%;
+      padding-top: 50px;
+    }
+
+  .second-banner-h {
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+  }
+
+  .banner-button {
+    margin: 0%;
+    font-size: 14px;
+    padding: 10px 20px 10px 20px;
+  }
+
+  .hotel-location {
+    font-size: 12px;
+    padding-bottom: 10px;
+  }
+
+  .featured-button {
+    font-size: 10px;
+  }
+
+  .footer {
+    padding-left: 0%;
+    gap: 0px;
+  }
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 0%;
+  }
+
+  .footer-links {
+    font-size: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem 2rem;
+    white-space: normal;
+  }
+
+  .footer-socials {
+    justify-content: center;
+    padding-left: 0%;
+  }
+
+  .footer-h {
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+    align-items: center;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    font-size: 10px;
+    gap: 1rem;
+    line-height: 1;
+  }
 }
 
 
