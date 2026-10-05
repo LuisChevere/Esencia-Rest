@@ -8,11 +8,6 @@
   accent-color: #c3a15b;
 }
 
-@theme {
-  --font-bodoni: "Bodoni Moda", serif;
-  --font-manrope: "Manrope", sans-serif;
-}
-
 body{
   background-color: #303428;
   color: #e9e0d2;
@@ -191,7 +186,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .banner-background {
-    height: 55vh;
+    height: 50vh;
   }
 
   .banner-logo{
