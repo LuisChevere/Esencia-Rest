@@ -66,7 +66,7 @@ The website is organized around six primary sections:
 Clone the repository:
 
 ```bash
-git clone <your-repository-url>
+git clone <git@github.com:LuisChevere/Esencia-Rest.git>
 ```
 
 Navigate into the project directory:
